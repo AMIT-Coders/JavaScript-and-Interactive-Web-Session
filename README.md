@@ -105,6 +105,12 @@ button {
 }
 ```
 4. Add functionality with jQuery (scripts.js)
+
+> [!CAUTION] 
+> Reference Error  
+> Possible Causes: Typos, incorrect variable names, accessing non-existent elements  
+> Troubleshooting Steps: Check for typos, verify variable names, ensure element existence, use console.log for debugging, implement error handling techniques
+
 ```
 $(document).ready(function() {
     $('#add-todo').click(function() {
@@ -131,16 +137,33 @@ $(document).ready(function() {
 * Test it to make sure everything works as expected.  
 * You might want to add features like editing tasks or marking them as completed :wink:
 
+***
+To effectively test the functionality of the To-Do App created using HTML, CSS, and jQuery, you can create a set of manual test cases. These test cases will help ensure that your app behaves as expected. Here are some test cases you could use:
+#### Test Case 1: Adding a New Task
+Objective: Verify that the user can add a new task to the to-do list.
 
-> [!CAUTION] 
-> Reference Error  
-> Possible Causes: Typos, incorrect variable names, accessing non-existent elements  
-> Troubleshooting Steps: Check for typos, verify variable names, ensure element existence, use console.log for debugging, implement error handling techniques
+Steps:
+
+1. Open the application in a web browser.
+2. Locate the input field and enter a task name, e.g., "Buy groceries".
+3. Click the "Add Task" button.
+Expected Result:  
+```
+The task "Buy groceries" appears in the list below the input field.
+The input field is cleared after the task is added.
+```
+Actual Result:  
+```
+To be filled during testing
+```
+Status: Pass/Fail
+
 
 ***
 
 Update `README.md` todo list below:
 - [ ] Add and remove elements successfully.
+- [ ] Test manually the functionality.
 - [ ] Submit the To-Do App on GitHub.
 
 :white_check_mark: Use `git status` to list all new or modified files that haven't yet been committed.
