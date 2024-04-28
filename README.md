@@ -2,8 +2,8 @@
 ## Full-Stack web development Bootcamp
 ### Milestone: 2
 #### Session outline:
-* Quick wrap-up on the previous session **15 mins**
-* Practice jQuery **2 hours**
+* Quick wrap-up on the previous session -- :hourglass_flowing_sand: **15 mins**
+* Practice jQuery -- :hourglass_flowing_sand: **2 hours**
 * Finish Individual work (To-Do App) -- :hourglass_flowing_sand: **2 hours**
 
 :warning: :warning: :warning: :warning: :warning: :warning: :warning:
